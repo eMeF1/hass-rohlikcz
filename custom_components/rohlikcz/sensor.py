@@ -21,8 +21,8 @@ from homeassistant.helpers.entity import Entity
 from homeassistant.helpers.typing import (
     ConfigType,
     DiscoveryInfoType,
-    HomeAssistantType,
 )
+from homeassistant.core import HomeAssistant
 import voluptuous as vol
 from . import RohlikDataUpdateCoordinator
 
